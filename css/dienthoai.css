@@ -1,0 +1,309 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width:80%;
+    margin: auto;
+   height: auto;
+    /* border: 1px solid red; */
+}
+header{
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 62px;
+    background: wheat;
+    line-height: 62px;
+    margin-bottom: 10px;
+   
+    
+    
+}
+header div a img{
+    width: 100px;
+    float: left;
+    margin-top:-15px ;
+}
+footer{
+    background-color: #c4c4c4;
+    clear: both;
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+
+.timkiem{
+    float: left;
+}
+header .timkiem input{
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 50px;
+    width: 400px;
+}
+header .timkiem button{
+    height: 35px;
+}
+.dangnhap{
+    float: left;
+}
+.dangnhap ul{
+    float: left;
+    
+}
+.dangnhap ul li{
+    float: left;
+    list-style: none;
+}
+.dangnhap ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 40px;
+    font-weight: bold;
+}
+.container header .giohang{
+    float: right;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.container header .giohang a img{
+    width: 50px;
+    line-height: 62px;
+}
+
+/* nav */
+
+
+nav>ul>li{
+    display: inline-block;
+}
+nav>ul>li>a{
+    display: block;
+}
+nav>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+   
+    background-color: #f1e9e9;
+    text-align: center;
+    
+}
+nav>ul>li>a{
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    color: black;
+    padding: 0 50px;
+    line-height: 40px;
+}
+nav>ul>li>a:hover{
+    color: yellow;
+}
+
+.container>article{
+    /* min-height: 2000px; */
+    width: 90%;
+    margin: 0 auto;
+   height: auto;
+    float: left;
+}
+
+.container>aside{
+    /* min-height: 400px; */
+    width: 10%;
+    background-color: lightgray;
+    float: left;
+    
+}
+
+/* .container>footer{
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+} */
+
+
+.vmenu{
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+.vmenu a{
+   
+    display: block;
+    border-bottom: 1px dotted black;
+    color:black;
+    font-variant: small-caps;
+    font-size: large;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+.vmenu a:hover{
+    
+    border-bottom: 1px dotted white;
+    box-shadow: 0 0 5px white;
+    color: white;
+    font-weight: bold;
+}
+
+
+.thongtin{
+    width: 30%;
+    height: 80px;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+.thongtin h5{
+    text-align: center;
+}
+
+
+
+
+/* sp */
+.column{
+    width: 20%;
+    float: left;
+}
+ 
+.hot{
+    width: 100%;
+    background-color: #ff4c4c;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    border-radius: 5px;
+}
+.san-pham{
+    border-radius: 10px;
+    /* box-shadow: 0 0 5px gray; */
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid gray;
+}
+.san-pham:hover{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid gray;
+    box-shadow: 0 0 5px white;
+}
+/* .san-pham{
+    box-shadow: 0 0 10px white;
+} */
+.san-pham .ten a{
+    font-size: large;
+    font-variant: small-caps;
+    color: blue;
+    list-style: none;
+    text-decoration: none;
+}
+.san-pham img{
+    max-width: 95%;
+}
+.san-pham .giamoi{
+    color: red;
+    font-weight: bold;
+    font-size: large;
+}
+.san-pham .gia del{
+    color: gray;
+}
+.san-pham .giagoc{
+    font-weight: bold;
+    text-decoration: line-through;
+}
+.san-pham{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid gray;
+    /* height: 200px; */
+}
+.san-pham .ten{
+    font-size: large;
+    font-variant: small-caps;
+    color: blue;
+    
+}
+.san-pham img{
+    max-width: 95%;
+}
+.san-pham .gia{
+    color: red;
+    font-weight: bold;
+    font-size: large;
+}
+.san-pham .gia del{
+    color: gray;
+}
+.khung-hot{
+    width: 100%;
+    float: left;
+    
+}
+.hot{
+    width: 30%;
+    background-color: #ff4c4c;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    border-radius: 80%;
+    
+
+}
+.khung-tieude p{
+    text-align: center;
+    font-weight: bold;
+}
+.khung-sp{
+    /* border: 1px solid red; */
+    float: left;
+}
+
+
+
+aside{
+    min-height: auto;
+    width: 25%;
+    background: white;
+    float: right;  
+}
+
+
+.san-pham .ten a:hover{
+    font-size: large;
+    font-variant:small-caps;
+    color: #e22258;
+    list-style: none;
+    text-decoration: none;
+}
+footer h2{
+    padding-top: 10px;
+}
+footer p{
+     padding: 10px;
+     margin: 10px;
+     font-family: Arial, Helvetica, sans-serif;
+ }

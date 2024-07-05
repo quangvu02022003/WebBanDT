@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width:80%;
+    margin: auto;
+   height: auto;
+    /* border: 1px solid red; */
+}
+header{
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 62px;
+    background: wheat;
+    line-height: 62px;
+    margin-bottom: 10px;
+    position: relative;
+   
+    
+    
+}
+header div a img{
+    width: 100px;
+    float: left;
+    margin-top:-15px ;
+   
+}
+footer{
+    width: 100%;
+    background-color: #f1e9e9;
+    clear: both;
+    max-width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    /* border: 1px solid red; */
+   
+ 
+}
+
+.timkiem{
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+header .timkiem input{
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 50px;
+    width: 400px;
+}
+header .timkiem button{
+    height: 35px;
+}
+.dangnhap{
+    position: absolute;
+    top: 0px;
+    left: 700px;
+}
+.dangnhap ul{
+    /* float: left; */
+    
+}
+.dangnhap ul li{
+    display: inline-block;
+    list-style: none;
+    
+    
+}
+.dangnhap ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 40px;
+    font-weight: bold;
+    
+}
+.container header .giohang{
+   position: absolute;
+   right: 10px;
+   top: 6px;
+}
+.container header .giohang a img{
+    width: 50px;
+    line-height: 62px;
+    
+}
+
+/* nav */
+
+
+nav>ul>li{
+    display: inline-block;
+}
+nav>ul>li>a{
+    display: block;
+}
+nav>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    
+    background-color: #f1e9e9;
+    text-align: center;
+    
+}
+nav>ul>li>a{
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    color: black;
+    padding: 0 50px;
+    line-height: 40px;
+}
+nav>ul>li>a:hover{
+    color: rgb(229, 255, 0);
+}
+
+.container>article{
+    /* min-height: 2000px; */
+    width: 100%;
+    margin: 0 auto;
+   height: auto;
+    float: left;
+}
+
+.container>aside{
+    min-height: 400px;
+    width: 15%;
+    background-color: lightgray;
+    float: left;
+    
+}
+
+/* .container>footer{
+    border-top: 5px double orangered;
+    line-height: 50px;
+    
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+} */
+
+
+.vmenu{
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+.vmenu a{
+    background: url(hinh/muiten.jpg) no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: large;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+.vmenu a:hover{
+    
+    border-bottom: 1px dotted white;
+    box-shadow: 0 0 5px white;
+    color: white;
+    font-weight: bold;
+}
+/* iframe{
+    width: 100%;
+    min-height: 900px;
+}
+ */
+
+
+
+/* sp */
+.column{
+    width: 20%;
+    float: left;
+}
+
+
+/* .map-container iframe{
+    width: 150px;
+    height: 50px;
+    clear: none;
+    padding: auto;
+} */
+/* .map-container iframe{
+
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 1px;
+    border: none;
+} */
+
+/* .container footer .map-container{
+    position: relative;
+    padding-bottom: 75%;
+    height: 0px;
+    overflow: hidden;
+}
+.container footer .map-container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 200px;
+    border: none;
+} */
+/* .map-container{
+    width: 30%;
+    height: 50px;
+    float: right;
+}
+.map-container iframe{
+    width: 30%;
+    height: 100px;
+    
+    
+    
+} */
+.thongtin{
+    width: 30%;
+    height: 80px;
+   
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+.thongtin h5{
+    text-align: center;
+}
+
+.banner{
+    padding-top: 10px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+}
+.banner:hover{
+    box-shadow: 0 0 5px ;
+    margin-top: 10px;
+}
+footer h2{
+   padding-top: 10px;
+}
+footer p{
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}

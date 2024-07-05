@@ -1,0 +1,88 @@
+.san-pham{
+    border-radius: 10px;
+    /* box-shadow: 0 0 5px gray; */
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+.san-pham .ten a{
+    font-size: large;
+    font-variant: normal;
+    color: blue;
+    list-style: none;
+    text-decoration: none;
+}
+.san-pham img{
+    max-width: 95%;
+}
+.san-pham .giamoi{
+    color: red;
+    font-weight: bold;
+    font-size: large;
+}
+.san-pham .gia del{
+    color: gray;
+}
+.san-pham .giagoc{
+    font-weight: bold;
+    text-decoration: line-through;
+}
+.san-pham:hover{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid gray;
+}
+.san-pham .ten{
+    font-size: large;
+    font-variant: small-caps;
+    color: blue;
+}
+.san-pham img{
+    max-width: 95%;
+}
+.san-pham .gia{
+    color: red;
+    font-weight: bold;
+    font-size: large;
+}
+.san-pham .gia del{
+    color: gray;
+}
+
+.hot{
+    width: 100%;
+    background-color: #ff4c4c;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    border-radius: 5px;
+}
+.khung-tieude p{
+    text-align: center;
+    font-weight: bold;
+}
+.khung-sp{
+    border: 1px solid red;
+    float: left;
+}
+.column:hover{
+    
+    border-radius: 10px;
+}
+.san-pham .ten a:hover{
+    font-size: large;
+    font-variant:small-caps;
+    color: #e22258;
+    list-style: none;
+    text-decoration: none;
+}
+/* .san-pham{
+    box-shadow: 0 0 10px white;
+} */
